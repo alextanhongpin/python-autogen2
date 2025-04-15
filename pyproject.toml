@@ -1,0 +1,11 @@
+[project]
+name = "python-autogen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "autogen-ext[ollama]>=0.5.2",
+    "marimo>=0.12.9",
+    "mypy>=1.15.0",
+]
