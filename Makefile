@@ -14,3 +14,6 @@ studio:
 
 # Use ollama model in autogenstudio
 # http://localhost:11434/v1
+to_python:
+	uv run marimo export script $(name).py -o $(name).script.py
+
