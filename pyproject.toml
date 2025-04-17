@@ -6,7 +6,16 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "autogen-ext[magentic-one,ollama]>=0.5.2",
+    "chromadb>=1.0.5",
+    "google>=3.0.0",
+    "google-cloud>=0.34.0",
+    "googleapis-common-protos>=1.70.0",
+    "grpcio>=1.71.0",
+    "grpcio-tools>=1.71.0",
     "marimo>=0.12.9",
     "mypy>=1.15.0",
     "openai>=1.74.0",
+    "opentelemetry-sdk>=1.32.1",
+    "protobuf>=5.29.4",
+    "protorpc>=0.12.0",
 ]
